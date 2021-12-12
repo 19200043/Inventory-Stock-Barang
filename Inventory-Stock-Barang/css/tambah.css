@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+	position: relative;
+	height: 80vh;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.container > header {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: 25px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.container > nav {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.container > nav > div > a {
+	text-decoration: none;
+	color: black;
+}
+
+label {
+	font-size: 20px;
+}
+
+input {
+	padding: 5px;
+	min-width: 250px;
+	min-height: 30px;
+}
+
+button {
+	min-width: 250px;
+	min-height: 30px;
+}
